@@ -1,0 +1,15 @@
+{
+	"infile": "data/test1.csv",
+	"outfile": "outputs/output.txt",
+	"formatter": "UnnamedCoordFormatter2",
+	"row_headers": 2,
+	"col_headers": 1,
+	"parser": "CSV",
+	"delim": "delim",
+	"link": "link",
+	"eq": "eq",
+	"pre": "pre",
+	"val_label": "val_label",
+	"x_label": "x_label",
+	"y_label": "y_label"
+}

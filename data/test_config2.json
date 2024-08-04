@@ -1,0 +1,15 @@
+{
+	"infile": "test.csv",
+	"outfile": "test.txt",
+	"formatter": "test",
+	"row_headers": 10,
+	"col_headers": 1000,
+	"parser": "test",
+	"delim": "test",
+	"link": "test",
+	"eq": "test",
+	"pre": "test",
+	"val_label": "test",
+	"x_label": "test",
+	"y_label": "test"
+}
