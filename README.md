@@ -2,7 +2,8 @@
 ## *or Natural Language Representations of Tabular Data*
 ---
 
-[*Open*](https://gitpod.io/#https://github.com/ryancahildebrandt/nlt) *in gitpod*
+[![Open in gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ryancahildebrandt/nlt)
+[![This project contains 0% LLM-generated content](https://brainmade.org/88x31-dark.png)](https://brainmade.org/)
 
 ## Purpose
 
