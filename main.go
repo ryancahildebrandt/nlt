@@ -34,7 +34,7 @@ import (
 // Saves the reformatted output slice to the specified path
 func writeOutput(s []string, p string) error {
 	bytes := []byte(strings.Join(s, "\n"))
-	err := os.WriteFile(p, bytes, 0644)
+	err := os.WriteFile(p, bytes, 0o644)
 	return err
 }
 
@@ -48,7 +48,7 @@ func writeLastrun(c ConfigFields, f FormatFields) error {
 	if err != nil {
 		return err
 	}
-	err = os.WriteFile("lastrun.json", bytes, 0644)
+	err = os.WriteFile("lastrun.json", bytes, 0o644)
 	return err
 }
 
@@ -90,7 +90,6 @@ func main() {
 			fields, err := ReadFields(configPath)
 			if err != nil {
 				log.Fatalf("Unable to load formatter fields\nError: %v", err)
-
 			}
 			fmt.Printf("Formatter fields read as:\n%#v\n", fields)
 
